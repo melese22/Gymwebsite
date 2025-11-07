@@ -17,6 +17,18 @@ body{
 
 /*Header*/
 
+
+.fa-tiktok:before {
+    content: "TK";
+    font-weight: bold;
+    font-size: 14px;
+    background: linear-gradient(45deg, #FF0050, #00F2EA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
 header{
 	position:fixed;
 	left: 0px;
